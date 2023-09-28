@@ -1,0 +1,30 @@
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .user-profile:hover {
+    cursor: pointer;
+    background-color: #ebebeb;
+  }
+  
+  .user-profile .MuiAvatar-circular {
+    width: 30px;
+    height: 30px;
+ }
+  
+  .user-info {
+      margin-left:15px ;
+     text-decoration: none;
+  }
+  .user-info h2 {
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+ .user-info p {
+    font-size: 12px;
+    text-decoration: none;
+ }

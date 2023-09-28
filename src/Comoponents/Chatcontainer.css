@@ -1,0 +1,102 @@
+.chat-container {
+  min-width: 348px;
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 5px 0px 5px 10px;
+  background-color: #ededed;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.chat-header-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.chat-user-name {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.chat-user-name h3 {
+  font-size: 16px;
+}
+
+.chat-user-name p {
+  font-size: 12px;
+}
+
+.chat-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.chat-header-right svg {
+  font-size: 18px;
+}
+
+.chat-display-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: #ece5dd;
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+
+.chat-footer svg {
+  padding: 10;
+  color: gray;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.chat-footer form {
+  flex:1;
+}
+
+.chat-footer form input[type="text"] {
+  border: 0;
+  height: 40px;
+  outline: 0;
+  width: 100%;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+
+.MuiButtonBase-root.sendButton > .MuiSvgIcon-root {
+  color: white;
+}
+
+.MuiButtonBase-root.sendButton {
+  background-color: #128c7e;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiButtonBase-root.sendButton:hover {
+  background-color: #0b5950;
+}
